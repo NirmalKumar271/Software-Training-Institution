@@ -10,24 +10,24 @@ Technologies Used
 👉 PHP: For server-side scripting.
 👉 MySQL: For database management.
 
-Frontend 
+Frontend: 
 
-Homepage: Highlights institution details, courses, and key features.
-Course Catalog: Displays available courses with details such as duration, fees, and syllabus.
-Contact Form: Allows users to send inquiries directly to the institution.
-Responsive Design: Optimized for desktop, tablet, and mobile devices.
+1️⃣ Homepage: Highlights institution details, courses, and key features.
+2️⃣ Course Catalog: Displays available courses with details such as duration, fees, and syllabus.
+3️⃣ Contact Form: Allows users to send inquiries directly to the institution.
+4️⃣ Responsive Design: Optimized for desktop, tablet, and mobile devices.
 
 Backend:
 
-Admin Dashboard:
-Add, update, and delete courses.
-Manage student registrations and inquiries.
-Student Portal:
-Register for courses.
-View registered courses and schedules.
+🚀 Admin Dashboard:
+1️⃣ Add, update, and delete courses.
+2️⃣ Manage student registrations and inquiries.
+🚀 Student Portal:
+1️⃣ Register for courses.
+2️⃣ View registered courses and schedules.
 
 Database:
 
-MySQL Database:
-Stores student and admin data securely.
-Maintains course details and registration records.
+🚀 MySQL Database:
+1️⃣ Stores student and admin data securely.
+2️⃣ Maintains course details and registration records.

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>book</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylebook.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">
+          <img src="img/icon.png" alt="">
+        </div>
+        <h1 class="comname">V2V Infotech Solution</h1>
+        <ul>
+     <li><a href="home.html" >home</a></li>
+     <li><a href="courses.html">courses</a></li>
+     <li><a href="contact.html">contact</a></li>
+     <li><a href="book.html" class="active">book</a></li>
+     </ul>
+      </div>
+     </nav>
+
+     <h1>Apply Now</h1>
+
+      <div class="container">
+        <div id="con"><br>        
+
+          <form action="connect.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required><br><br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required> Male
+            <input type="radio" id="female" name="gender" value="Female" required> Female
+            <input type="radio" id="transgender" name="gender" value="Transgender" required> Transgender<br><br>
+            
+            <label for="qualification">Qualification:</label>
+            <input type="radio" id="ug" name="qualification" value="UG" required> UG
+            <input type="radio" id="pg" name="qualification" value="PG" required> PG
+            <input type="radio" id="be" name="qualification" value="BE" required> BE
+            <input type="radio" id="others" name="qualification" value="Others" required> Others<br><br>
+            
+            <label for="course">Choose a Course:</label>
+            <select id="course" name="course" required>
+              <option value="Data Analytics">Data Analytics</option>
+              <option value="Artificial Intelligence">Artificial Intelligence</option>
+              <option value="fullStack Development">FullStack Development</option>
+              <option value="Cyber Security">Cyber Security</option>
+              <option value="Cloud Computing">Cloud Computing</option>
+              <option value="BlockChain Technology">BlockChain Technology</option>
+              <option value="MobileApp Development">MobileApp Development</option>
+              <option value="Software Testing & QA">Software Testing & QA</option>
+            </select><br><br>
+            
+            <button type="submit">Submit</button><br>
+        </form>
+      </div>
+     </div>
+    
+
+    
+    
+  </body>
+</html>

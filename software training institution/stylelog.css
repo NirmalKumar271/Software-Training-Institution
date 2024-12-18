@@ -1,0 +1,47 @@
+body{
+  background-image: url(images/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  text-align: center;
+  color:snow;
+}
+.container{
+  text-decoration: solid;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+
+}
+.container,div{
+  
+  border-radius: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+button{
+background-color:plum ;
+border-radius: 6px;
+border-width: 2px;
+box-sizing: content-box;
+border-width: thick;
+padding: 6px;;
+text-transform: capitalize;
+text-decoration: dotted;
+font-weight: bolder;
+align-self: end;
+}
+input{
+  
+  border-radius: 6px;
+  border-width: 2px;
+  padding: 8px; 
+  
+}
+button:hover{
+  color: darkgreen;
+  background-color: white;
+}

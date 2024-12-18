@@ -1,0 +1,99 @@
+*{
+  text-decoration: none;
+ }
+ .navbar{
+  background-color: steelblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+ }
+ .navdiv{
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+   
+  
+ }
+ 
+ .logo img{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-position:  left;
+  
+}
+li{
+  list-style:none ;
+  display: inline-block;
+  
+
+}
+li a{
+  font-weight: bold;
+  justify-items: auto;
+  margin-right: 15px;
+  font-size: large;
+  color:white;
+
+}
+a:hover{
+  color: tomato;
+  background-color: snow;
+  border-radius: 6px;
+  
+}
+h1{
+  text-align: center;
+}
+.container{
+  text-align: center;
+  
+}
+#con{
+  border: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 8px;
+  background-color:burlywood;
+  border-radius: 6px;
+}
+input{
+  border-width: 2px;
+  padding: 2px;
+  font-size: large;
+  border-radius: 6px;
+  border: 2px solid black;
+  
+}
+
+.opt{
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+button{
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color:palevioletred ;
+  
+}
+body{
+  background-color: beige;
+}
+button:hover{
+  color: darkgreen;
+  background-color: white;
+}
+ 
+form label{
+  font-weight: bold;
+  text-align: justify;
+}
+
+.comname{
+  text-align:center;
+  color: snow;
+  background-position: center;
+  padding-left: 10%;
+}
